@@ -17,7 +17,7 @@ func newDeck() deck {
 	cardValues := []string{"Ace", "Two", "Three", "Four"} // It'd usually go all the way up to king, but let's KISS it.
 	for _, suit := range cardSuits {
 		for _, value := range cardValues {
-			cards = append(cards, value + " of " + suit)
+			cards = append(cards, value+" of "+suit)
 		}
 	}
 	return cards

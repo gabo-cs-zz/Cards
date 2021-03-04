@@ -1,6 +1,6 @@
 package main
 
-func main()  {
+func main() {
 	// A few plays of deck functionalities. Find more in deck.go
 
 	cards := newDeck()
